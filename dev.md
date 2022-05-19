@@ -27,19 +27,24 @@ klf | kubectl logs -f | Stream the logs for a container or resource (follow)
 from: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/kubectl
 
 ## Environment Setup
-* Postman
-* Alfred
-* IntelliJ
-* Atom
-* Bash/Zsh
-  * [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh)
-    * Plugins: 
-      * git
-      * github
-      * golang
-      * helm
-      * jira
-      * kubectl
-      * mvn
-      * history
-      * [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+### Tools:
+#### Postman
+#### Alfred
+#### IntelliJ
+#### Atom
+#### Bash/Zsh
+#### [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh)
+```
+plugins=(
+ git
+ github
+ golang
+ helm
+ jira
+ kubectl
+ mvn
+ history
+ zsh-autosuggestions
+)
+```
+#### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)

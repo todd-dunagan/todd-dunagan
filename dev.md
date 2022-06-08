@@ -18,6 +18,7 @@ from: https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/docker
 Alias | Command | Description
 ----- | ------- | -----------
 kgp | kubectl get pods | List all pods in ps output format
+kgpa | kubectl get all, all namespaces pods | List all pods in ps output format
 kgpl | kgp -l | Get pods by label. Example: kgpl "app=myapp" -n myns
 kgpn | kgp -n | Get pods by namespace. Example: kgpn kube-system
 kdp | kubectl describe pods | Describe all pods

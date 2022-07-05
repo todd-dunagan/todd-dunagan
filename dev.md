@@ -49,3 +49,24 @@ plugins=(
 )
 ```
 #### [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+
+### Bash
+
+#### Parameters to bash script
+```
+while getopts u:a:f: flag
+do
+    case "${flag}" in
+        u) username=${OPTARG};;
+        a) age=${OPTARG};;
+        f) fullname=${OPTARG};;
+    esac
+done
+echo "Username: $username";
+echo "Age: $age";
+echo "Full Name: $fullname";
+```
+from: https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script
+
+#### Bash CheatSheet
+https://devhints.io/bash

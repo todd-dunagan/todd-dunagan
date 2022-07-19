@@ -52,7 +52,7 @@ plugins=(
 
 ### Bash
 
-#### Parameters to bash script
+#### Handling parameters in bash script
 ```
 while getopts u:a:f: flag
 do
@@ -67,6 +67,12 @@ echo "Age: $age";
 echo "Full Name: $fullname";
 ```
 from: https://www.baeldung.com/linux/use-command-line-arguments-in-bash-script
+
+#### Grep
+##### Recursive with include / exclude
+```
+grep -r "[test to find]" . --exclude-dir={[array of vals]} --include="*.[file_ext]"
+```
 
 #### Bash CheatSheet
 https://devhints.io/bash
